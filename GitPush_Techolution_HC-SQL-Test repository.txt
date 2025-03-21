@@ -1,0 +1,12 @@
+go to the onprem folder which you want to push to techolution github repo sql hc test
+
+git init                      # Initialize Git repository
+git checkout -b RepManager    # Create and switch to 'RepManager' branch
+git status                    # Check the status (see changes)
+git add .                     # Stage all changes
+git status                    # Verify the staged changes
+git commit -m "Initial commit on RepManager branch"  # Commit changes
+git remote add origin https://github.com/Techolution/hc-SQL-test.git  # Add remote repo
+git push origin RepManager    # Push the RepManager branch to GitHub
+git status                    # Verify everything is pushed correctly
+
